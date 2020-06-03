@@ -23,7 +23,6 @@ const getWeather= (location,callback)=>{
 
 })}
 
-
 const pathName=path.join(__dirname,'./src')
 const patialsPathName=path.join(__dirname,'./src/partials')
 hbs.registerPartials(patialsPathName)
