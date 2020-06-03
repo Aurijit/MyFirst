@@ -1,0 +1,21 @@
+{
+  "name": "Weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "hbs": "^4.1.1",
+    "jquery": "^3.5.1",
+    "node-fetch": "^2.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
