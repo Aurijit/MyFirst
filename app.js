@@ -6,7 +6,7 @@ const hbs = require('hbs')
 const app=express()
 const getWeather= (location,callback)=>{
 
-    const URL="http://api.weatherstack.com/current?access_key=5426a63b16c3b81165fef0084bafd0e1&query="+location
+   /* const URL="http://api.weatherstack.com/current?access_key=5426a63b16c3b81165fef0084bafd0e1&query="+location
     request({ url: URL,json: true},(error,response,body)=>{
 
         if (body.current===undefined) {
@@ -22,6 +22,8 @@ const getWeather= (location,callback)=>{
     }
 
 })}
+
+*/
 const port = process.env.PORT || 3000
 const pathName=path.join(__dirname,'./src')
 const patialsPathName=path.join(__dirname,'./src/partials')
