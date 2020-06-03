@@ -8,11 +8,11 @@ weatherForm.addEventListener('submit',(event)=>{
     event.preventDefault()
     const loc=locatio.value
     console.log("a")
-    const url="http://localhost:3000/weather?location="+loc
+    const url="/weather?location="+loc
     fetch(url).then((response)=>
 {
 response.json().then((data)=>{
-    if(data.error)
+    if(data)
     {
         message.textContent=(data.error)
     }

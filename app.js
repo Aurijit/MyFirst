@@ -22,12 +22,12 @@ const getWeather= (location,callback)=>{
     }
 
 })}
-
+const port = process.env.PORT || 3000
 const pathName=path.join(__dirname,'./src')
 const patialsPathName=path.join(__dirname,'./src/partials')
 hbs.registerPartials(patialsPathName)
 app.use(express.static(pathName))
-app.listen('3000')
+app.listen(port)
 app.set('view engine','hbs')
 app.set('views',pathName)
 
